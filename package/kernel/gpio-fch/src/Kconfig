@@ -1,0 +1,5 @@
+config GPIO_FCH
+        tristate "AMD FCH gpio support"
+        depends on GPIOLIB && GPIO_GENERIC
+        help
+          Say yes here to enable support for the CPU GPIO pins on AMD FCH.
